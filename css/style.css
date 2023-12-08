@@ -56,11 +56,12 @@ body{
     border-radius: 8px;
     color: #4caf50;
     padding-top: 20px;
+    margin-top: 7px;
 }
 .bnb{
     background-image: linear-gradient(90deg,#2c69d1 0,#0abcf9 51%,#2c69d1);
     width: 500px;
-    height: 330px;
+    height: 370px;
     text-align: center;
     margin: auto;
     border-radius: 8px;
@@ -68,8 +69,38 @@ body{
     padding-top: 2px;
     background-size: 200% auto;
     transition: .5s;
+    margin-top: 7px;
 }
 .bnb h5{
     color: white;
+    display: block;    
+    font-weight: 100;
+}
+.bnb h4{
+    color: white;
     display: block;
+}
+.bar_data{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    background-color: #616161;
+}
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.pt-\[2px\] {
+    padding-top: 2px;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: #fff;
+    text-align: start;
+    font-size: 16px;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+.mb-2 {
+    margin-bottom: 0.5rem;
 }
